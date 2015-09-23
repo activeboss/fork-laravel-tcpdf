@@ -1,9 +1,6 @@
 {
     "name": "spicy/fork-laravel-tcpdf",
     "description": "fork xAockd/laravel-tcpdf",
-    "require": {
-        "tecnickcom/tcpdf": "6.*"
-    },
     "license": "mit",
     "authors": [
         {
@@ -11,5 +8,15 @@
             "email": "varit@activemedia.co.th"
         }
     ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0",
+        "tecnickcom/tcpdf": "6.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Spicy\\LaravelTcpdf\\": "src/"
+        }
+    },
     "minimum-stability": "dev"
 }
