@@ -1,4 +1,4 @@
-<?php namespace Xaoc\LaravelTcpdf\Facades;
+<?php namespace Spicy\LaravelTcpdf\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

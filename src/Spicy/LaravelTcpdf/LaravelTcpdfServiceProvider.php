@@ -1,4 +1,4 @@
-<?php namespace Xaoc\LaravelTcpdf;
+<?php namespace Spicy\LaravelTcpdf;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\AliasLoader;
@@ -69,7 +69,7 @@ class LaravelTcpdfServiceProvider extends ServiceProvider
 
         $this->mergeConfigFrom($configPath, 'laravel-tcpdf');
 
-        $this->publishes([__DIR__ . '/../../assets' => public_path('vendor/xaoc/laravel-tcpdf')], 'public');
+        $this->publishes([__DIR__ . '/../../assets' => public_path('vendor/spicy/laravel-tcpdf')], 'public');
 
         /* override the default TCPDF config file
         ------------------------------------- */
@@ -80,7 +80,7 @@ class LaravelTcpdfServiceProvider extends ServiceProvider
 
         $this->setTcpdfConstants();
 
-        AliasLoader::getInstance()->alias('PDF', 'Xaoc\LaravelTcpdf\Facades\LaravelTcpdfFacade');
+        AliasLoader::getInstance()->alias('PDF', 'Spicy\LaravelTcpdf\Facades\LaravelTcpdfFacade');
     }
 
 

@@ -1,28 +1,15 @@
 {
-    "name": "xaoc/laravel-tcpdf",
-    "description": "A simple Laravel 5 service provider with some basic configuration for including the TCPDF library",
-    "keywords": ["laravel", "pdf", "tcpdf"],
-    "license": "MIT",
+    "name": "spicy/fork-laravel-tcpdf",
+    "description": "fork xAockd/laravel-tcpdf",
+    "require": {
+        "tecnickcom/tcpdf": "6.*"
+    },
+    "license": "mit",
     "authors": [
         {
-            "name": "Dmitriy Galievskiy",
-            "email": "dmitriy.galievskiy@outlook.com",
-            "homepage": "https://github.com/xAockd"
-        },
-        {
-            "name": "Markus Schober",
-            "email": "maxx.schober@gmail.com"
+            "name": "Varit Onvong",
+            "email": "varit@activemedia.co.th"
         }
     ],
-    "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "~5.0",
-        "tecnick.com/tcpdf": "6.*"
-    },
-    "autoload": {
-        "psr-0": {
-            "Xaoc\\LaravelTcpdf\\": "src/"
-        }
-    },
     "minimum-stability": "dev"
 }

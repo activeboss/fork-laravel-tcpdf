@@ -1,4 +1,4 @@
-<?php namespace Xaoc\LaravelTcpdf;
+<?php namespace Spicy\LaravelTcpdf;
 
 use \TCPDF;
 use Config;
